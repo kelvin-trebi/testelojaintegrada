@@ -11,15 +11,12 @@ describe('Logar e adicionar produto', () => {
       .click()
     cy.get('.comprar > .botao')
       .click()
-
-describe('Adicionar cupom 10%', () => {
+//adiciona cupom 10%
     cy.get('#usarCupom')
       .type('10OFF')
     cy.get('#btn-cupom')
       .click()
     cy.scrollTo('bottom');
-
-describe('Obtem texto do elemento e dar replace nos simbolos', () => {
   //subtotal
     cy.get('.subtotal > .titulo').invoke('text').then((subtotalTexto) => {
       const subtotal = parseFloat(subtotalTexto.trim()
@@ -42,15 +39,10 @@ describe('Obtem texto do elemento e dar replace nos simbolos', () => {
       .replace(',', '.')
       .replace('-', ''));
     cy.log('Texto capturado', totalEsperado)
-
-describe('Realiza comparação entre os valores', () => {
   //validar se o Total é igual a conta do totalEsperado
       expect(totalExibido).to.be.closeTo(totalEsperado, 0.10);
     cy.get('.span12 > .principal').scrollIntoView().click();
   
-});
-});
-});
 });
 });
 });
