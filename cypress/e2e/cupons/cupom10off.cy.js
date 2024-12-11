@@ -12,6 +12,7 @@ describe('Logar e adicionar produto', () => {
     cy.get('.comprar > .botao')
       .click()
 //adiciona cupom 10%
+//adiciona cupom 10%
     cy.get('#usarCupom')
       .type('10OFF')
     cy.get('#btn-cupom')
@@ -48,4 +49,3 @@ describe('Logar e adicionar produto', () => {
 });
 });
 });
-
