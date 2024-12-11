@@ -49,11 +49,11 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 22.10.1
-  resolution: "@types/node@npm:22.10.1"
+  version: 22.10.2
+  resolution: "@types/node@npm:22.10.2"
   dependencies:
     undici-types: "npm:~6.20.0"
-  checksum: 10c0/0fbb6d29fa35d807f0223a4db709c598ac08d66820240a2cd6a8a69b8f0bc921d65b339d850a666b43b4e779f967e6ed6cf6f0fca3575e08241e6b900364c234
+  checksum: 10c0/2c7b71a040f1ef5320938eca8ebc946e6905caa9bbf3d5665d9b3774a8d15ea9fab1582b849a6d28c7fc80756a62c5666bc66b69f42f4d5dafd1ccb193cdb4ac
   languageName: node
   linkType: hard
 
@@ -173,6 +173,14 @@ __metadata:
   languageName: node
   linkType: hard
 
+"automacao@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "automacao@workspace:."
+  dependencies:
+    cypress: "npm:13.15.0"
+  languageName: unknown
+  linkType: soft
+
 "aws-sign2@npm:~0.7.0":
   version: 0.7.0
   resolution: "aws-sign2@npm:0.7.0"
@@ -269,14 +277,6 @@ __metadata:
   checksum: 10c0/ccf64bcb6c0232cdc5b7bd91ddd06e23a4b541f138336d4725233ac538041fb2f29c2e86c3c4a7a61ef990b665348db23a047060b9414c3a6603e9fa61ad4626
   languageName: node
   linkType: hard
-
-"cenariosli@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "cenariosli@workspace:."
-  dependencies:
-    cypress: "npm:13.15.0"
-  languageName: unknown
-  linkType: soft
 
 "chalk@npm:^4.1.0":
   version: 4.1.2
